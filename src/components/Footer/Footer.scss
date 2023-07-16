@@ -1,0 +1,46 @@
+.footer-container {
+  margin-top: 8rem;
+  .top {
+    display: flex;
+    margin: 6rem 0;
+    .left {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      .about {
+        p {
+          font-size: 1.4rem;
+          line-height: 2.24rem;
+          margin-top: 3rem;
+        }
+      }
+      .bussiness-links {
+        display: flex;
+        gap: 1rem;
+      }
+    }
+    .right {
+      flex: 3;
+      display: flex;
+      justify-content: space-evenly;
+      .links {
+        ul {
+          margin-top: 2rem;
+          list-style-type: none;
+          li {
+            font-size: 1.4rem;
+            line-height: 2.8rem;
+          }
+        }
+      }
+    }
+  }
+
+  .copyright-text {
+    font-size: 1.4rem;
+    line-height: 2.24rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,76 @@
+.client-review-container {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+
+  .top {
+    text-align: center;
+    p {
+      padding-top: 1rem;
+      font-size: 1.8rem;
+      line-height: 2.88rem;
+      color: #757575;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    .left {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .client-image-container {
+        width: 38.9rem;
+        height: 38.9rem;
+        position: relative;
+        .client-image {
+          height: 100%;
+        }
+        .dot {
+          position: absolute;
+          right: 1rem;
+          top: -1rem;
+          z-index: -1;
+        }
+        .redEllipse {
+          position: absolute;
+          left: 0;
+          bottom: 3rem;
+          z-index: -1;
+        }
+      }
+      .review {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 4rem;
+        gap: 3rem;
+      }
+      .nav-dots {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        p {
+          width: 1.6rem;
+          height: 1.6rem;
+          border-radius: 50%;
+          background-color: #e7f0fc;
+          &:first-child {
+            background-color: #2639ed;
+          }
+        }
+      }
+    }
+    .right {
+      position: relative;
+      .ellipse {
+        position: absolute;
+        left: 4rem;
+        bottom: 13rem;
+        z-index: -1;
+        fill: #fff5db;
+      }
+    }
+  }
+}

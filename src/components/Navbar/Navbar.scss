@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 3.4rem;
+  h1 {
+    font-size: 2.715rem;
+    line-height: 3.355rem;
+    .bold {
+      line-height: 3.307rem;
+    }
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    li {
+      padding: 0 2.3rem;
+      text-transform: capitalize;
+    }
+  }
+}

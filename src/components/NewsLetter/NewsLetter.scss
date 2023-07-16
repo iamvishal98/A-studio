@@ -1,0 +1,80 @@
+.newsletter-container {
+  margin-top: 8rem;
+  padding: 5rem 2rem;
+  position: relative;
+  .newsletter {
+    height: 29.2rem;
+    border-radius: 7.5rem;
+    background-color: #f4f9ff;
+    display: flex;
+    align-items: center;
+
+    .left {
+      flex: 1;
+      h1,
+      p {
+        padding-left: 6rem;
+        margin-bottom: 2rem;
+      }
+    }
+    .right {
+      flex: 1;
+      height: 100%;
+      display: flex;
+      flex-direction: row-reverse;
+      form {
+        border-radius: 20rem 7.5rem 7.5rem 20rem;
+        background-color: #2639ed;
+        width: 70%;
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        input {
+          margin-left: -16rem;
+          padding: 2rem 25rem 2rem 2rem;
+          width: 47.9rem;
+          height: 8rem;
+          border-radius: 6rem;
+          border: 1px solid #f1f1f1;
+          box-shadow: 10px 20px 50px 0px #00000026;
+          &::placeholder {
+            color: #959595;
+            font-weight: 400;
+            font-size: 1.6rem;
+            line-height: 1.97rem;
+          }
+        }
+
+        button {
+          position: absolute;
+          height: 6rem;
+          width: 18.8rem;
+          padding: 2rem 4rem;
+          border-radius: 6rem;
+          background-color: #2639ed;
+          color: #ffffff;
+          font-weight: 400;
+          font-size: 1.6rem;
+          line-height: 1.97rem;
+          border: none;
+          right: calc(100% - 30rem);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .rectangle {
+    position: absolute;
+    transform: rotate(90deg);
+    bottom: 1rem;
+    left: -2rem;
+    z-index: -1;
+  }
+  .dot {
+    position: absolute;
+    top: 0;
+    right: -2rem;
+    z-index: -1;
+  }
+}

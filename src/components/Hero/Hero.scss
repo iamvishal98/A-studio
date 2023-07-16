@@ -1,0 +1,50 @@
+.hero-container {
+  height: 610px;
+  margin-top: 4rem;
+  display: flex;
+  gap: 20px;
+  .left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+
+    button {
+      width: 215px;
+      height: 65px;
+      padding: 20px 40px;
+      border-radius: 60px;
+      background-color: #2639ed;
+      color: #ffffff;
+      font-size: 20px;
+      border: none;
+    }
+
+    img {
+      position: absolute;
+      z-index: -1;
+      bottom: 50px;
+      left: -50px;
+    }
+  }
+
+  .right {
+    position: relative;
+    margin-right: -4rem;
+    .background-images {
+      .ellipse {
+        position: absolute;
+        top: 0;
+        left: -65px;
+        z-index: -1;
+      }
+      .rectangle {
+        position: absolute;
+        right: 100px;
+        bottom: 20px;
+        z-index: -1;
+      }
+    }
+  }
+}
