@@ -1,7 +1,12 @@
+## Live Deployment
+
+https://aplusstudios.netlify.app/
+
 ## PROJECT EXPLANATION
 
 Run command "npm i" to install all the required dependency.
-Run comaand "npm run dev" to run the app.
+
+Run command "npm run dev" to run the app.
 
 ## ASSUMPTIONS
 
